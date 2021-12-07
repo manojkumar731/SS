@@ -1,0 +1,10 @@
+.logoImg {
+  width: 168px;
+  position: relative;
+}
+
+.logoImg img {
+  width: 140px;
+  position: absolute;
+  background: #ffff;
+}
