@@ -1,2 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/dist/css/bootstrap.css";
+@import "../src/assets/bootstrap-icons.css";
+
+body {
+  background: rgb(245, 244, 248);
+  font-size: 14px;
+}
+
+a:focus, button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+button:focus:not(:focus-visible) {
+  outline: none;
+  box-shadow: none;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #0380c3;
+  border-color: #0380c3;
+}

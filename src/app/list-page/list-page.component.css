@@ -1,0 +1,45 @@
+.mainWrapper {
+  margin-top: 90px;
+}
+
+.col.shoppingList {
+  padding: 15px 0;
+  background-color: #fff;
+  margin-top: 1px;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.col.shoppingList:nth-child(odd) {
+  border-right: 1px solid #e2e2e2;
+}
+
+.cartBtn {
+  margin-top: 15px;
+}
+
+.card.shoppingList {
+  padding: 15px 0;
+  background-color: #fff;
+  margin-top: 0;
+  border: 0;
+  border-bottom: 1px solid #e2e2e2;
+  border-radius: 0;
+}
+
+.card.shoppingList:nth-child(odd) {
+  border-right: 1px solid #e2e2e2;
+}
+
+.oringalPrice.col-3 {
+  text-decoration: line-through;
+  opacity: 0.3;
+}
+
+span.inrIcon {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.newPrice.col-3 {
+  font-size: 18px;
+}

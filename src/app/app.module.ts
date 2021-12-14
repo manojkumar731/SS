@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { ListPageComponent } from './list-page/list-page.component';
 import { LoginPageComponent } from './login-page/login-page.component';
+import { ListDetailComponent } from './list-detail/list-detail.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { LoginPageComponent } from './login-page/login-page.component';
     AppComponent,
     HeaderComponent,
     ListPageComponent,
-    LoginPageComponent
+    LoginPageComponent,
+    ListDetailComponent
   ],
   imports: [
     BrowserModule,
